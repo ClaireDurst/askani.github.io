@@ -1,29 +1,66 @@
-.mainhead {
-	
-
+* {
+  box-sizing: border-box;
+  text-align: center;
 }
 
 body {
-    background-color: #efeee7;
-    font: Georgia;
-    font color: #333333;
-
+  padding: 20px;
+  margin: 40px;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #777777;
+  background-image: url("http://img.freepik.com/free-photo/white-wall_1194-5956.jpg?size=338&ext=jpg");
 }
 
 .title {
-	font: Georgia;
-	color: red;
-	background-color: #ffffff;
+	color: white;
+	background-color: #4aaaa5;
 	border-color: #cccccc;
+	text-indent: 10px;
+	width: 200px;
+	margin: 40px;
+	height: 35px;
+	align-content: left;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
 
 }
 
-.name {
-	color: purple;
+.header { 
+
 }
 
-.rtmc {
-	color: yellow;
+.blank {
+	background-color: black;
+	height: 1px;
+	display: block;
+	width: 10px;
 }
 
+.college {
+	color: black;
+	background-color: white;
+}
 
+.pupper {
+	height: 200px;
+	width: 200px;
+}
+
+.contact {
+	background-color: white;
+	color: black;
+	margin-top: 10px;
+	margin-right: 20px;
+	width: 225px;
+	text-align: center;
+	display: inline;
+
+}
+
+#address  {
+	border-top: 10px;
+	border-right: 20px;
+}
